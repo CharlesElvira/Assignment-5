@@ -4,7 +4,7 @@
 
 module.exports = {
   db: {
-    uri: 'mongodb://root:root@ds147044.mlab.com:47044/heroku_w78mxshr',
+    uri: process.env.MONGODB_URI,
   }, 
   googleMaps: {
     key: 'AIzaSyDY8_g992gMYw8BdIYzu1Fjov0u097n3uA'
