@@ -7,7 +7,7 @@ module.exports = {
     uri: process.env.MONGODB_URI,
   }, 
   googleMaps: {
-    key: 'AIzaSyDY8_g992gMYw8BdIYzu1Fjov0u097n3uA'
+    key: 'AIzaSyCv8QfyEDn12edNf_o5j20kL_sMCXutwyo'
   },
   port: process.env.PORT
 };
